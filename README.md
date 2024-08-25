@@ -33,3 +33,15 @@ STRING
 SYMBOL
 
 ## put ; after return{}
+
+
+## Call back function: a function you give to another function to be run when the other function is finished.
+
+## function curryinh: creating a copy of a function buy with some preset parameters.
+
+resource:
+https://lodash.com/
+
+https://underscorejs.org/docs/underscore-esm.html
+
+# Reflection: anobject can look as itself, listening and change its properties and methods.
