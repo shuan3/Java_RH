@@ -44,4 +44,8 @@ https://lodash.com/
 
 https://underscorejs.org/docs/underscore-esm.html
 
+https://momentjs.com/
+
 # Reflection: anobject can look as itself, listening and change its properties and methods.
+
+# function constructor: a noemal function that is used to construct objects.
