@@ -1,0 +1,1 @@
+window.lib=window.lib1||"lib2"
