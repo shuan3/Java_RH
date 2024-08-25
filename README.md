@@ -31,3 +31,5 @@ BOOLEAN
 NUMBER
 STRING
 SYMBOL
+
+## put ; after return{}
