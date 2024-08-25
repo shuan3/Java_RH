@@ -10,3 +10,20 @@ var people=[
         greet: function(){console.log('hello')}
     }
 ]
+
+var a=3;
+console.log(typeof a);
+
+
+var a={};
+console.log(typeof a);
+
+var d=[];
+console.log(typeof d);
+
+
+var a='hello';
+console.log(typeof a);
+console.log(Object.prototype.toString.call(d));
+
+console.log(e instanceof Person);
