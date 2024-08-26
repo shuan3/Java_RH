@@ -48,4 +48,29 @@ var arr6=_.map([2,3,4,5,6],function(item){return item*3});
 console.log('arr6 is '+arr6)
 
 var arr7=_.map([2,3,4,5,6],function(item){return item%2===0;});
-console.log('arr7 is '+arr7)
+console.log('arr7 is '+arr7);
+
+
+console.log('check below function!');
+
+(
+    function lol1(){
+        console.log('() make it works also')
+        // return 'Yeds'
+    }()
+);
+
+
+console.log('check below function 2!');
+
+
+// function lol2(){
+//     console.log('lol2 make it works also')
+//     // return 'Yeds'
+// };
+var run_function=function lol2(){
+    console.log('lol2 make it works also')
+    // return 'Yeds'
+}();
+
+// lol2()

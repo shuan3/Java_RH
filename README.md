@@ -45,7 +45,13 @@ https://lodash.com/
 https://underscorejs.org/docs/underscore-esm.html
 
 https://momentjs.com/
+strict mode
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+
 
 # Reflection: anobject can look as itself, listening and change its properties and methods.
 
 # function constructor: a noemal function that is used to construct objects.
+
+# Polyfill  Code that adds a feature which the engine may lack.
+# JQUEY is a libary
