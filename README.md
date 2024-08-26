@@ -48,6 +48,10 @@ https://momentjs.com/
 strict mode
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 
+http://www.typescriptland.org/Playground
+
+https://www.youtube.com/TonyAlicea
+
 
 # Reflection: anobject can look as itself, listening and change its properties and methods.
 
@@ -55,3 +59,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 
 # Polyfill  Code that adds a feature which the engine may lack.
 # JQUEY is a libary
+
+# Transpile: convert the syntax of one programming language to another. Exapmle type script. Traceur complier
+
+# Method Chaining: calling one method after anohter and each method affects the parent object. so obj.method1().method2() where both methods end up with a this variable pointing at obj
