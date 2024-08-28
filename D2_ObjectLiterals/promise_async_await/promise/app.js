@@ -50,12 +50,14 @@ function CustomPromise(executor){
         ) ;      
         }   
     this.then=function(callback){
+
             if (state===FULFILLED) {
                 callback(value)
             }else{
                 handlers.push(callback);
             }
-        
+        console.log('check handlers')
+        console.log(handlers)
         };    
         executor(resolve,reject);
     }
@@ -85,3 +87,19 @@ setTimeout(
         })
     },3
 )
+
+
+const doOtherWork=(res,rej)=>{
+    setTimeout(
+        ()=>{res("How are you")},2
+    )
+
+}
+
+
+someText.then(
+    (val)=>{console.log("nst log: "+ val)
+    return "How are you?"}
+).then((val)=>{
+    console.log( val);
+});

@@ -63,3 +63,9 @@ https://www.youtube.com/TonyAlicea
 # Transpile: convert the syntax of one programming language to another. Exapmle type script. Traceur complier
 
 # Method Chaining: calling one method after anohter and each method affects the parent object. so obj.method1().method2() where both methods end up with a this variable pointing at obj
+
+# Thennable object: an object that has a 'then' function.
+
+# Syntactic sugar: features designed to make writing code more efficient, clean or understandable but in reality do not let you do things that you could not already accomplish before in another way.
+
+# binding: the connection (pointer) between a variable name and a specific location in the computer's memory that holds the value.
